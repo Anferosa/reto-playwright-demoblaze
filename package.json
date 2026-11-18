@@ -1,0 +1,14 @@
+{
+  "name": "reto-playwright-demoblaze",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:reto": "playwright test --project=reto",
+    "show-report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.0.0"
+  }
+}
